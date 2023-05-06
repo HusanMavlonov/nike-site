@@ -1,0 +1,167 @@
+body {
+    background-image: black;
+    font-family: 'Montserat', sans-serif;
+line-height: 1.6 ;
+   color: #333;
+    font-size:  15px;
+}
+
+*,
+*::before
+*::after {
+box-sizing: border-box;
+}
+
+/*Контейнер*/
+
+.container {
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*шапка*/
+
+.shapka {
+    font-family: 'Montserat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   margin: 200px 0 0 -350px ;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.intro_title {
+    margin: -150px 0 0 200px;
+   color: #333;
+   font-size: 50px;
+   font-weight: 700;
+   text-transform: uppercase;
+   text-align: center;
+   line-height: 1;
+}
+
+.intro_title:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 60px  auto 0;
+    background-color: #333;
+}
+
+.intro_price {
+font-size: 25px;
+margin-left: 200px;
+margin-top: -20px;
+color: gray;
+}
+
+.intro_price2 {
+    font-size: 25px;
+   margin-left: 200px;
+  margin-top: -40px;
+    color: black;
+    }
+
+.intro_subtitle {
+    margin-top: 100px;
+    color: #333;
+    font-size: 99px;
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+ }
+
+
+.intro_inner {
+    text-align: center;
+    width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+}
+
+/*Хедер*/
+
+.header {
+    padding-top: 30px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 16px;
+    font-size: 20px;
+}
+
+.header_logo {
+    font-family: 'Montserat', sans-serif;
+    display: inline-block ;
+    vertical-align: top;
+    margin: 0 16px;
+    font-size: 25px;
+    font-weight: 700px;
+    color: black;
+}
+
+/*Img*/
+.img  {
+   width: 50%;
+   margin: -450px 0 0 900px;
+}
+
+
+
+
+/*Навигация*/
+
+.nav {
+    font-family: 'Montserat', sans-serif, Bold;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+.nav_link {
+    display: inline-block;
+    margin: 0 10px;
+    color: black;
+    position: relative;
+    text-decoration: none;
+    transition: color 0.2s linear;
+}
+
+.nav_link:hover {
+   color: white;
+   border-radius: 5px;
+   
+}
+
+
+/*Кнопка*/
+
+.button {
+    display: inline-block;
+    margin: 50px 0px 0 200px;
+    vertical-align: top;
+    padding: 10px 15px;
+    border: 2px solid #333;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: background 1s linear, color 1s linear;
+}
+
+.button:hover {
+    filter: brightness(50%);
+    color: #333;
+}
